@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(thistle, teal);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    padding: 50px;
+    width: 60%;
+    max-width: 500px;
+
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30pt;
+    line-height: 30pt;
+    color: teal;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20pt;
+    color: thistle;
+}
