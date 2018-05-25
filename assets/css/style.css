@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 
 body {
-    background: linear-gradient(thistle, teal);
+    background: linear-gradient(#E5BFF9, #B3E3FE);
     font-family: "Open Sans", sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    text-align: center;
+    margin: 0px;
 }
 
 .container {
@@ -20,10 +24,10 @@ body {
     padding: 30px;
     width: 60%;
     max-width: 500px;
-}
-
-header, section, article {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .wells {
@@ -31,25 +35,32 @@ header, section, article {
     justify-content: center;
 }
 
-article {
+.card {
     border-radius: 10px;
-    background: thistle;
+    background: #E4C1F7;
+    text-align: center;
     min-width: 80px;
-    padding: 3px;
+    max-width: 300px;
+    padding: 2px 3px;
     margin: 5px;
 }
 
 
 
 /* ////////// Text Styles ///////// */
+h1, h2, h3, h4, input, {
+    text-align: center;
+    margin: 3px 0px;
+}
 
 h1 {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 40pt;
     line-height: 35pt;
-    color: teal;
-    margin-bottom: 5px;
+    color:#B3E3FE;
+    margin-bottom: 0px 0px 0px 0px;
+    padding: 0px;
 }
 
 h2 {
@@ -60,30 +71,21 @@ h2 {
 
 h3 {
     text-transform: uppercase;
-    color: teal;
+    color: white;
     margin-bottom: 5px;
 
 }
 
 h4 {
     text-transform: uppercase;
-    color: thistle;
-    font-weight: normal;
+    color: #999;
+    font-weight: 800;
 }
 
 .number {
     color: white;
     font-size: 20pt;
     font-weight: 800;
-}
-
-input {
-    border: 1px solid thistle;
-    font-size: 12pt;
-    color: #bbb;
-    width: 20%;
-    margin: 5px;
-    text-align: center;
 }
 
 /* ////////// Mobile Styles ///////// */
